@@ -1,6 +1,8 @@
 import React from 'react';
+import Header from './components/Header.js';
 import WidgetBar from "./components/WidgetBar.js";
 // import ReactDom from 'react-dom';
+
 
 class App extends React.Component {
   constructor() {
@@ -25,9 +27,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>
-          Justin Martyr Music
-        </h1>
+        <Header />
         <div>
           <form>
             <input
